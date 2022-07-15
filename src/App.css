@@ -1,0 +1,136 @@
+nav{
+  display: flex;
+  padding: 10px;
+  justify-content: space-between;
+  padding-right: 20px;
+  box-shadow: 1px 2px 3px gray;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 999;
+  background-color: rgb(5, 29, 49);
+  border-top: 1px solid gray;
+}
+
+.main{
+  padding-top: 20px;
+}
+
+.lnkDiv ul{
+  padding: 0;
+  display: flex;
+}
+
+.lnkDiv ul li{
+  margin-left: 20px;
+  list-style: none;
+  transition: all ease 1s;
+  color: white;
+}
+
+.lnkDiv ul li:hover{
+  border-bottom: 1px solid white;
+  cursor: pointer;
+  transform: scale(1.1); 
+  color: whitesmoke;
+}
+
+.lnkDiv ul li a{
+  margin-left: 20px;
+  list-style: none;
+  transition: all ease 1s;
+  color: white;
+  text-decoration: none;
+}
+
+.lnkDiv ul li a:hover{
+  cursor: pointer;
+  transform: scale(1.1);
+  color: whitesmoke;
+}
+
+.mobileNav{
+  display: none;
+}
+
+.lnkDiv{
+  padding-top: 10px;
+}
+
+.lgDiv{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 20px;
+}
+
+.socDiv{
+  width: auto;
+  display: flex;
+  justify-content: space-around;
+  margin-left: 20px;
+}
+
+.logoImgDiv{
+  width: 10vh;
+  height: 10vh;
+}
+
+.imgLogo{
+  box-shadow: 1px 1px 1px gray;
+}
+
+.railwaysAccademy{
+  font-weight: 10;
+  color: white;
+  font-size: 24px;
+  margin-left: -50vh;
+  font-family: monospace;
+}
+
+.sideNav{
+  display: none;
+}
+
+@media only screen and (max-width:650px){
+  .mobileNav{
+    display: block;
+  }
+
+  .sideNav{
+    width: 50%;
+    height: 100vh;
+    display: block;
+    background-color: rgb(5, 29, 49);
+    position: fixed;
+    z-index: 999;
+  
+  }
+  .fa-bars{
+    font-size: 30px;
+  }
+  .lnkDiv{
+    display: none;
+  }
+  .socDiv{
+    width: 30vh;
+  }
+  .logoImgDiv{
+    width: 6vh;
+    height: 6vh;
+    margin-left: -53vh;
+    display: none;
+  }
+  .main{
+    margin-top: -1px;
+  }
+  .railwaysAccademy{
+    font-size: 20px;
+    margin-left: -30vh;
+  }
+  .fa-bars{
+    color: white;
+  }
+ 
+}

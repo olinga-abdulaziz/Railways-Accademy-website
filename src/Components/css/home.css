@@ -1,0 +1,367 @@
+.contCss{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.imgIn{
+    box-shadow: 3px 6px 12px gray;
+    border-radius: 10px;
+}
+.customNav{
+    width: 95%;
+    height: 8vh;
+    background-color: rgb(5, 29, 49);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.ofcont{
+    font-weight: 10;
+    color: wheat;  
+    font-size: 15px; 
+}
+
+.customLnDiv{
+    align-items: center;
+}
+
+.customLnDiv ul{
+    padding: 0;
+    margin-top: -2px;
+    color: wheat;
+}
+
+.customLnDiv ul li a{
+    color: wheat;
+    text-decoration: none;
+    text-align: center;
+}
+
+.customLnDiv ul li a:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    color: white;
+   
+  }
+
+.headings{
+    font-weight: 10;
+}
+
+.homeTop{
+    width: 100%;
+    height: 100vh;
+    padding-top: 20px;
+    margin-top: 20px;
+}
+
+.topDispDiv{
+    width: 100%;
+    display: flex;
+    height: 60vh;
+    margin-top: 30px;
+    padding: 20px;
+}
+
+.disp1{
+    width: 60%;
+    height: auto;
+}
+
+.disp2{
+    width: 40%;
+    height: auto;
+    margin-left: 20px;
+}
+
+.disp2Top{
+    height: 50%;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.disp2Bot{
+    height: 50%;
+    width: 100%;
+}
+
+.imgIn{
+    transition: all ease 1s;
+}
+
+.imgIn:hover{
+    transform: scale(1.1);
+    box-shadow: 1px 2px 3px gray;
+}
+
+.imgInDesc{
+    position: absolute;
+    margin-top: -55px;
+    color: white;
+    background-color: black;
+    width: 51.32%;
+    padding-left: 20px;
+    opacity: 50%;
+}
+.imgInDesc2{
+    position: absolute;
+    margin-top: -55px;
+    color: white;
+    font-size: 13px;
+    background-color: black;
+    width: 30%;
+    padding-left: 20px;
+    opacity: 50%;
+    margin-left: 10px;
+}
+.motto{
+    font-size: 18px;
+    color: rgb(5, 29, 49);
+    width: 44%;
+    transition: all ease 100ms;
+    border-bottom: 1px solid rgb(5, 29, 49);
+    overflow: hidden;
+}
+.motto:hover{
+  cursor: pointer;
+  width: 50%;
+  transform: scale(1.1);
+}
+.socDiv1{
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.aboutDiv{
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    margin-top: 40px;
+    padding-top: 20vh;
+    padding-bottom: 20vh;
+    bottom: 0%;
+    position: relative;
+    background-color: rgb(5, 29, 49);
+    color: white;
+    scroll-margin-top: 30px;
+}
+
+.aboutDicContent{
+    display: flex;
+}
+.topFooter{
+    padding-top: 10vh;
+}
+.about{
+    color: whitesmoke;
+}
+.aboutP{
+    color: rgb(163, 159, 159);
+}
+.abD1{
+    width: 40%;
+    height: 65vh;
+}
+.abD2{
+    width: 60%;
+    height: 100%;
+    padding: 30px;
+}
+.profileContainer{
+    width: 100%;
+    height: 90vh;
+    background-color: white;
+}
+.proMain{
+    display: flex;
+    justify-content: space-between;
+}
+.prom1{
+    padding: 10px;
+    width: 33.3%;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+.prom2{
+    padding: 10px;
+    width: 33.3%;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.prom3{
+    padding: 10px;
+    width: 33.3%;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.remarksContainer{
+    width: 100%;
+    height: 94vh;
+    margin-top: 20px;
+    padding-top: 10vh;
+}
+.profMadoi{
+    width: 100%;
+    height: 20vh;
+    /* background-color: rgb(5, 29, 49); */
+}
+.headings1{
+    font-size: 30px;
+    width: 400px;
+    font-weight: 10;
+    margin-bottom: 10vh;
+    border-bottom: 1px solid rgb(5, 29, 49);
+}
+.remakBox{
+    width: 100%;
+    height: auto;
+    display: flex;
+    padding-left: 25px;
+}
+.remarkArt{
+    width: auto;
+    height: 100%;
+    margin: 10px;
+    background-color: rgb(172, 174, 176);
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 3px 6px 10px gray;
+    transition: all ease 1s;
+}
+.remarkArt:hover{
+    transform: scale(1.1);
+}
+.remCont{
+    width: 40vh;
+}
+.reImgDiv{
+    width: 25vh;
+    height: 25vh;
+    border-radius: 50%;
+    overflow: hidden;
+    box-shadow: 3px 6px 10px gray;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 10px;
+}
+
+@media only screen and (max-width:650px){
+    .topDispDiv{
+        width: 100%;
+        display: flex;
+        height: auto;
+        margin-top: 20px;
+    }
+    .homeTop{
+        height: auto;
+    }
+    
+    .remakBox{
+        display: block;
+        padding-left: 1px;
+
+    }
+    .remarkArt{
+        width:94%;
+        margin-bottom: 20px;
+    }
+    .motto{
+        font-size: 18px;
+        color: rgb(5, 29, 49);
+        width: 90%;
+        transition: all ease 100ms;
+        border-bottom: none;
+        overflow: hidden;
+    }
+    .motto:hover{
+        cursor: pointer;
+        width: 90%;
+        transform: scale(1.1);
+      }
+    .aboutDicContent{
+        display: block;
+    }
+    .headings1{
+        width: 200px;
+        margin-bottom: 5vh;
+    }
+    .abD1{
+        width: 100%;
+        height: 40vh;
+    }
+    .abD2{
+        width: 100%;
+        height: 100%;
+        padding: 30px;
+    }
+    .proMain{
+        display: block;
+    }
+    .prom1{
+        width: 100%;
+    }
+    .prom2{
+        width: 100%;
+    }
+    .prom3{
+        width: 100%;
+    }
+    .profileContainer{
+        height: auto;
+        padding-bottom: 30px;
+    }
+    .customNav{
+        display: none;
+    }
+    .topDispDiv{
+        display: block;
+    }
+    .disp1{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    
+    .disp2{
+        width: 100%;
+        margin-left: 0;
+    }
+    .disp2Top{
+        margin-bottom: 20px;
+    }
+    .disp2Top{
+        height: auto;
+    }
+    
+    .disp2Bot{
+        height: auto;
+    }
+    .imgInDesc{
+        position: absolute;
+        margin-top: -55px;
+        color: white;
+        background-color: black;
+        width: 85%;
+        padding-left: 20px;
+        opacity: 50%;
+    }
+    .imgInDesc2{
+        position: absolute;
+        margin-top: -55px;
+        color: white;
+        font-size: 13px;
+        background-color: black;
+        width: 85%;
+        padding-left: 20px;
+        opacity: 50%;
+        margin-left: 10px;
+    }
+
+    
+  
+}
